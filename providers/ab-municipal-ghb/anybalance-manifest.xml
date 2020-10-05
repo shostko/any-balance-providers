@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<provider>
+    <id version="1">ab-municipal-ghb</id>
+    <name>ГродноЖилСтрой Прейскурант</name>
+	<description html="true"><![CDATA[
+	<p>Провайдер для получнеия списка продающейся на данный момент недвижимости ОАО «ГРОДНОЖИЛСТРОЙ».</p>
+	<p>Собирает информацию с раздела "НЕДВИЖИМОСТЬ"" / "ПРЕЙСКУРАНТ РБ" офф.сайта.</p>
+    <p>http://www.ghb.by/ru/construction/price_apartments/</p>
+	]]></description>
+    <author>Sergey Shostko &lt;sergey@shostko.by&gt;</author>
+    <files>
+        <icon>icon.png</icon>
+        <js>main.js</js>
+        <history>history.xml</history>
+    </files>
+    <counters>
+        <counter id="construction1" name="Позиция 1" type="text"/>
+        <counter id="construction2" name="Позиция 2" type="text"/>
+        <counter id="construction3" name="Позиция 3" type="text"/>
+        <counter id="construction4" name="Позиция 4" type="text"/>
+        <counter id="construction5" name="Позиция 5" type="text"/>
+        <counter id="construction6" name="Позиция 6" type="text"/>
+        <counter id="construction7" name="Позиция 7" type="text"/>
+        <counter id="construction8" name="Позиция 8" type="text"/>
+        <counter id="construction9" name="Позиция 9" type="text"/>
+        <counter id="construction10" name="Позиция 10" type="text"/>
+    </counters>
+    <keywords>
+        ГРОДНОЖИЛСТРОЙ
+    </keywords>
+    <type>
+        municipal
+    </type>
+</provider>
